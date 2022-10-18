@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebFlow</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body class="body">
+  <div class="page">
+
+    <div class="main">
+      <div class="profile">
+        <div class="menu">
+          <div class="menu__user-block">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ftk6QoRbvxgB6KToakUg9lpyUW9_7abbu02NzNUdRkfnEr1GZFKJ2J3yXfUYbpYsPKw&usqp=CAU"
+              alt="" class="menu__avatar">
+            <p class="menu__name-user"> </p>
+            <p class="menu__occupation"></p>
+            <p class="menu__plan-type">Plan: Supreme</p>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__item menu__item_active"><a href="" class="menu__link menu__link_active"><img
+                  src="images/profile.svg" alt="" class="menu__icon"> Profile</a></li>
+            <li class="menu__item "><a href="" class="menu__link"><img src="images/choice.svg" alt=""
+                  class="menu__icon">
+                Plans</a></li>
+            <li class="menu__item"><a href="" class="menu__link"><img src="images/credit-card (1).svg" alt=""
+                  class="menu__icon">Billing</a></li>
+            <li class="menu__item"><a href="" class="menu__link"><img src="images/puzzle.svg" alt="" class="menu__icon">
+                Integrations</a>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link"><img src="images/receipt.svg" alt=""
+                  class="menu__icon">
+                Billing Tools</a>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link"><img src="images/shopping-cart (1).svg" alt=""
+                  class="menu__icon"> Purchases</a></li>
+            <li class="menu__item"><a href="" class="menu__link"><img src="images/mail.svg" alt="" class="menu__icon">
+                Email Settings</a>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link"><img src="images/locked.svg" alt="" class="menu__icon">
+                Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="wrapper-info">
+        <div class="info info__account">
+          <h2 class="info__title">Account Info</h2>
+          <div class="info__forms">
+            <div class="form-group">
+              <span id='firstNameLabel' class="form-group__label">First&nbsp;Name</span>
+              <input placeholder="John" type="text" class="input form-group__input" />
+            </div>
+            <div class="form-group">
+              <span id='lastNameLabel' class="form-group__label">Last&nbsp;Name</span>
+              <input placeholder="Wick" type="text" class="input form-group__input" />
+            </div>
+            <div class="info__line"></div>
+            <p class="info__conditions">Displayed on your public profile, notifications and other places.</p>
+          </div>
+          <div class="info__forms">
+            <div class="form-group">
+              <span id='userNameLabel' class="form-group__label">Username</span>
+              <input placeholder="Baba Yaga" type="text" class="input form-group__input" />
+            </div>
+            <div class="form-group">
+              <span id='emailLabel' class="form-group__label">Email</span>
+              <input placeholder="johnWick@gmail.com" type="text" class="input form-group__input" />
+            </div>
+            <div class="info__line"></div>
+            <p class="info__conditions">Username must be between 3 and 20 characters long containing only letters and
+              numbers
+              with no spaces. Used in public
+              pages like your public profile.</p>
+          </div>
+        </div>
+        <div class="info info__account">
+          <h2 class="info__title">Profile Info</h2>
+          <div class="info__forms">
+            <div class="form-group">
+              <span id='cityLabel' class="form-group__label">City</span>
+              <input placeholder="New York" type="text" class="input form-group__input" />
+            </div>
+            <div class="form-group">
+              <span id='countryLabel' class="form-group__label">Country</span>
+              <input placeholder="USA" type="text" class="input form-group__input" />
+            </div>
+            <div class="info__line"></div>
+            <p class="info__conditions">Displayed on your public profile, notifications and other places.</p>
+          </div>
+          <div class="info__forms">
+            <div class="form-group">
+              <span id='occupationLabel' class="form-group__label">Occupation</span>
+              <input placeholder="Killer" type="text" class="input form-group__input" />
+            </div>
+            <div class="form-group__hire">
+              <p id='availableHireText' class="form-group__question">Available for Hire?</p>
+              <div class="form-group__switcher-container form-group__switcher-container_active">
+                <div class="form-group__switcher-cirle form-group__switcher-cirle_active"></div>
+              </div>
+            </div>
+            <div class="info__line"></div>
+            <p class="info__conditions">Clients and businesses are able to contact you using a contact for on your
+              public
+              profile. We'll send you an email when
+              someone tries to contact you.</p>
+          </div>
+        </div>
+        
+        <ul class="lang">
+          <li class="lang__item"><a href="" class="lang__link">ru</a></li>
+          <li class="lang__item"><a href="" class="lang__link lang__link_active">en</a></li>
+        </ul>
+        <!-- <button class="button">Жми</button> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
